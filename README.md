@@ -7,3 +7,4 @@ The code is split into two folders:
   - the conversation service to implement a conversation flow, to get status from the home dashboard and publish commands to it
   - the Text-to-Speach service to convert the feedback sent by the device to an audio format
 The nodejs code is supposed to be run on any device that can receive voice input through a microphone and produce audio output through a speaker. In the demo implementation of this flow, a Raspberry PI has been used.
+The nodejs code has been deeply inspired by the TJBot code here: https://github.com/ibmtjbot/tjbot/blob/master/recipes/conversation/conversation.js
